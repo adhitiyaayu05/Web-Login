@@ -1,0 +1,106 @@
+*{
+font-family: 'Poppins', sans-serif;
+}
+
+.login {
+height: 100vh;
+}
+
+.header h1{
+/* position: absolute;
+width: 244px;
+height: 48px;
+left: 186px;
+top: 118px; */
+/* font-family: 'Poppins'; */
+
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+
+color: rgb(95, 0, 75);
+}
+
+.header p{
+/* 
+position: absolute;
+width: 288px;
+height: 21px;
+left: 186px;
+top: 166px;
+
+font-family: 'Poppins';  */
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color:rgb(189, 21, 175);
+margin-bottom:  10px;
+}
+
+.login-form label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:rgb(188, 8, 152);
+    margin-top: 20px;
+}
+
+.login-form input{
+    /* position: absolute;
+width: 312px;
+height: 21px;
+left: 186px;
+top: 166px; */
+
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.login-form a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(179, 49, 101);
+    margin: 20px 0;
+    display:block;
+}
+
+.login-form .signin {
+width: 100%;
+height: 42px;
+background: #bb2778;
+border-radius: 8px;
+margin-top: 10px;
+color:#FFFFFF;
+border: none;
+}
+
+.login-form .signin-google {
+width: 100%;
+height: 42px;
+background:#FFFFFF;
+border: 1px solid #BCBCBC;
+box-sizing: border-box;
+border-radius: 8px;
+margin: 20px 0 20 0;
+}
+
+.login-form span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color:rgb(236, 103, 180);
+}
+
+.login-form span a{
+font-weight: 600px;
+}
